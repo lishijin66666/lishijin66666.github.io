@@ -1,0 +1,24 @@
+html {
+	height: 100%; background-color: rgb(248, 248, 248);
+}
+body {
+	height: 100%; background-color: rgb(248, 248, 248);
+}
+body {
+	font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
+}
+.item {
+	padding: 10px 0px;
+}
+.item__title {
+	color: rgb(153, 153, 153); padding-right: 15px; padding-left: 15px; font-size: 14px; font-weight: normal; margin-bottom: 5px;
+}
+.item__ctn {
+	padding: 0px 15px;
+}
+.page_feedback {
+	padding: 15px; overflow: auto; background-color: rgb(255, 255, 255);
+}
+label > * {
+	pointer-events: none;
+}
