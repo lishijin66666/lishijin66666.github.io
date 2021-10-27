@@ -1,0 +1,192 @@
+﻿<!DOCTYPE HTML>
+<!-- saved from url=(0035)http://tjxx.lnu.edu.cn/inputExt.asp -->
+<!DOCTYPE html PUBLIC "" ""><HTML><HEAD><META content="IE=11.0000" 
+http-equiv="X-UA-Compatible">
+ 
+<META charset="UTF-8"> 
+<META http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"> 
+<META http-equiv="Pragma" content="no-cache"> 
+<META http-equiv="Expires" content="0"> 
+<META name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover"> 
+<TITLE>每日填报</TITLE> <LINK href="每日填报_files/weui.min.css" rel="stylesheet"> <LINK 
+href="每日填报_files/app.css" rel="stylesheet"> 
+<SCRIPT src="每日填报_files/jquery.min.js"></SCRIPT>
+ 
+<META name="GENERATOR" content="MSHTML 11.00.10570.1001"></HEAD> 
+<BODY ontouchstart="">
+<P id="bear"></P>
+<DIV id="form">
+<FORM id="sub_form">
+<DIV class="weui-cells__title">李世瑾&nbsp;&nbsp;2021-10-27&nbsp;&nbsp;已填报		 <A 
+style="float: right;" href="javascript:outApply();">*出入校申请*</A>					 </DIV>
+<DIV class="weui-cells weui-cells_form">
+<DIV class="weui-cells__title">当前所在地?</DIV>
+<DIV class="weui-cells">
+<DIV class="weui-cell">
+<DIV class="weui-cell__bd"><INPUT name="xszd" class="weui-input" id="cascadePickerBtn" required="" type="text" readonly="" placeholder="请输入您的当前所在省市" value="辽宁省,沈阳市" autocomplete="off" emptytips="请输入当前所在省市"> 
+          </DIV>
+<DIV class="weui-cell__ft"><I class="weui-icon-warn"></I> </DIV></DIV>
+<DIV class="weui-cell">
+<DIV 
+class="weui-cell__bd"><INPUT name="xszq" class="weui-input" id="xszxq" required="" type="text" placeholder="县（区）" value="皇姑区" autocomplete="off" emptytips="请输入您的当前所在县（区）"> 
+          </DIV>
+<DIV class="weui-cell__ft"><I class="weui-icon-warn"></I> </DIV></DIV>
+<DIV class="weui-cell">
+<DIV 
+class="weui-cell__bd"><INPUT name="xszjd" class="weui-input" id="xszjd" required="" type="text" placeholder="街道（乡镇）" value="新乐街道" autocomplete="off" emptytips="请输入您的当前所在街道（乡镇）"> 
+          </DIV>
+<DIV class="weui-cell__ft"><I class="weui-icon-warn"></I> </DIV></DIV>
+<DIV class="weui-cell">
+<DIV 
+class="weui-cell__bd"><INPUT name="xszsq" class="weui-input" id="xszsq" required="" type="text" placeholder="社区（村）" value="辽大社区" autocomplete="off" emptytips="请输入您的当前所在社区（村）"> 
+          </DIV>
+<DIV class="weui-cell__ft"><I class="weui-icon-warn"></I> </DIV></DIV>
+<DIV class="weui-cell">
+<DIV 
+class="weui-cell__bd"><INPUT name="jtdz" class="weui-input" id="jtdz" required="" type="text" placeholder="详细地址" value="6舍115" autocomplete="off" emptytips="请输入您的详细地址"> 
+          </DIV>
+<DIV class="weui-cell__ft"><I class="weui-icon-warn"></I> 
+</DIV></DIV></DIV></DIV>
+<DIV class="weui-cells weui-cells_form">
+<DIV class="weui-cells__title">上次填报以来有无城市间流动经历？</DIV>
+<DIV class="weui-cells weui-cells_radio"><LABEL class="weui-cell weui-check__label" 
+for="r1">
+<DIV class="weui-cell__bd">无</DIV>
+<DIV class="weui-cell__ft"><INPUT name="csld" class="weui-check" id="r1" 
+required="" onclick="document.getElementById('csldxx').removeAttribute('required');document.getElementById('csldxxdiv').classList.remove('weui-cell_warn');document.getElementById('csldxx').value=''" 
+type="radio" value="无" tips="请选择上次填报以来有无城市间流动经历">           <SPAN class="weui-icon-checked"></SPAN> 
+</DIV></LABEL>		 <LABEL class="weui-cell weui-check__label" for="r31">
+<DIV class="weui-cell__bd"><FONT color="red">有（省内）</FONT></DIV>
+<DIV class="weui-cell__ft"><INPUT name="csld" class="weui-check" id="r31" 
+onclick="document.getElementById('csldxx').setAttribute('required','');" type="radio" 
+value="有（省内）">           <SPAN class="weui-icon-checked"></SPAN> </DIV></LABEL>  
+       <LABEL class="weui-cell weui-check__label" for="r2">
+<DIV class="weui-cell__bd"><FONT color="red">有（省外、境外）</FONT></DIV>
+<DIV class="weui-cell__ft"><INPUT name="csld" class="weui-check" id="r2" 
+onclick="document.getElementById('csldxx').setAttribute('required','');" type="radio" 
+value="有（其它情况）">           <SPAN class="weui-icon-checked"></SPAN> 
+</DIV></LABEL>       </DIV>
+<DIV class="weui-cell " id="csldxxdiv">
+<DIV class="weui-cell__bd"><TEXTAREA name="csldxx" class="weui-textarea" id="csldxx" onclick="document.getElementById('csldxxdiv').classList.remove('weui-cell_warn');" placeholder="如上次填报以来有城市间流动经历，请填写城市流动经历时间、城市、交通工具等，否则不填写" rows="3" autocomplete="off">如上次填报以来有城市间流动经历，请填写城市流动经历时间、城市、交通工具等，否则不填写</TEXTAREA>
+<DIV class="weui-textarea-counter"><SPAN>0</SPAN>/500</DIV></DIV></DIV></DIV>
+<DIV class="weui-cells weui-cells_form">
+<DIV class="weui-cells__title">当日有无同15日内<FONT 
+color="red">国内中、高风险区</FONT>进出及境外返回人员接触史？</DIV>
+<DIV class="weui-cells weui-cells_radio"><LABEL class="weui-cell weui-check__label" 
+for="r3">
+<DIV class="weui-cell__bd">无</DIV>
+<DIV class="weui-cell__ft"><INPUT name="hbjc" class="weui-check" id="r3" 
+required="" onclick="document.getElementById('hbjcxx').removeAttribute('required');document.getElementById('hbjcxxdiv').classList.remove('weui-cell_warn');document.getElementById('hbjcxx').value=''" 
+type="radio" value="无" tips="请选择当日有无同15日内国内中、高风险区进出及境外返回人员接触史">           <SPAN 
+class="weui-icon-checked"></SPAN> </DIV></LABEL>         <LABEL class="weui-cell weui-check__label" 
+for="r4">
+<DIV class="weui-cell__bd">有</DIV>
+<DIV class="weui-cell__ft"><INPUT name="hbjc" class="weui-check" id="r4" 
+onclick="document.getElementById('hbjcxx').setAttribute('required','');" type="radio" 
+value="有">           <SPAN class="weui-icon-checked"></SPAN> </DIV></LABEL>      
+ </DIV>
+<DIV class="weui-cell " id="hbjcxxdiv">
+<DIV class="weui-cell__bd"><TEXTAREA name="hbjcxx" class="weui-textarea" id="hbjcxx" onclick="document.getElementById('hbjcxxdiv').classList.remove('weui-cell_warn');" placeholder="如当日有同15日内国内中、高风险区进出及境外返回人员接触史，请填写接触时间、详细地点等，否则不填写" rows="4" autocomplete="off">如当日有同15日内国内中、高风险区进出及境外返回人员接触史，请填写接触时间、详细地点等，否则不填写</TEXTAREA>
+<DIV class="weui-textarea-counter"><SPAN>0</SPAN>/500</DIV></DIV></DIV></DIV>
+<DIV class="weui-cells weui-cells_form">
+<DIV class="weui-cells__title">当日体温（<FONT 
+color="red">注意：大于37.3度为发热</FONT>）？</DIV>
+<DIV class="weui-cell">
+<DIV 
+class="weui-cell__bd"><INPUT name="drtw" class="weui-input" id="drtw" required="" type="text" placeholder="请输入当日体温数字，例如36.5" pattern="((^3[5-9])(\.\d+)?|^(40)(\.0+)?)$" value="36" autocomplete="off" emptytips="请输入当日体温数字" notmatchtips="请用35~40之间纯数字填写"> 
+          </DIV>
+<DIV class="weui-cell__ft"><I class="weui-icon-warn"></I> </DIV></DIV></DIV>
+<DIV class="weui-cells weui-cells_form">
+<DIV class="weui-cells__title">当日身体症状?</DIV>
+<DIV class="weui-cells weui-cells_radio"><LABEL class="weui-cell weui-check__label" 
+for="r8">
+<DIV class="weui-cell__bd">健康</DIV>
+<DIV class="weui-cell__ft"><INPUT name="fyzz" class="weui-check" id="r8" 
+required="" onclick="document.getElementById('fyzzxx').removeAttribute('required');document.getElementById('fyzzxxdiv').classList.remove('weui-cell_warn');document.getElementById('fyzzxx').value=''" 
+type="radio" value="健康" tips="请选择当日身体症状">           <SPAN class="weui-icon-checked"></SPAN> 
+</DIV></LABEL>         <LABEL class="weui-cell weui-check__label" for="r9">
+<DIV class="weui-cell__bd">发热</DIV>
+<DIV class="weui-cell__ft"><INPUT name="fyzz" class="weui-check" id="r9" 
+onclick="document.getElementById('fyzzxx').removeAttribute('required');document.getElementById('fyzzxxdiv').classList.remove('weui-cell_warn');document.getElementById('fyzzxx').value=''" 
+type="radio" value="发热">           <SPAN class="weui-icon-checked"></SPAN> 
+</DIV></LABEL>		 <LABEL class="weui-cell weui-check__label" for="r13">
+<DIV class="weui-cell__bd">其它</DIV>
+<DIV class="weui-cell__ft"><INPUT name="fyzz" class="weui-check" id="r13" 
+onclick="document.getElementById('fyzzxx').setAttribute('required','');" type="radio" 
+value="其它">           <SPAN class="weui-icon-checked"></SPAN> </DIV></LABEL>     
+  </DIV>
+<DIV class="weui-cell " id="fyzzxxdiv">
+<DIV class="weui-cell__bd"><TEXTAREA name="fyzzxx" class="weui-textarea" id="fyzzxx" onclick="document.getElementById('fyzzxxdiv').classList.remove('weui-cell_warn');" placeholder="如有其它症状，请填写症状描述：咳嗽、身体乏力等，否则不填写" rows="3" autocomplete="off">如有其它症状，请填写症状描述：咳嗽、身体乏力等，否则不填写</TEXTAREA>
+<DIV class="weui-textarea-counter"><SPAN>0</SPAN>/500</DIV></DIV></DIV></DIV>
+<DIV class="weui-cells weui-cells_form">
+<DIV class="weui-cells__title">当前是否隔离观察？</DIV>
+<DIV class="weui-cells weui-cells_radio"><LABEL class="weui-cell weui-check__label" 
+for="r10">
+<DIV class="weui-cell__bd">否</DIV>
+<DIV class="weui-cell__ft"><INPUT name="glzt" class="weui-check" id="r10" 
+required="" type="radio" value="否" tips="请选择当前是否隔离观察">           <SPAN class="weui-icon-checked"></SPAN> 
+</DIV></LABEL>		 <LABEL class="weui-cell weui-check__label" for="r12">
+<DIV class="weui-cell__bd">居家隔离</DIV>
+<DIV class="weui-cell__ft"><INPUT name="glzt" class="weui-check" id="r12" type="radio" 
+value="居家隔离">           <SPAN class="weui-icon-checked"></SPAN> </DIV></LABEL>
+		 <LABEL class="weui-cell weui-check__label" for="r19">
+<DIV class="weui-cell__bd">集中隔离</DIV>
+<DIV class="weui-cell__ft"><INPUT name="glzt" class="weui-check" id="r19" type="radio" 
+value="集中隔离">           <SPAN class="weui-icon-checked"></SPAN> </DIV></LABEL>   
+      <LABEL class="weui-cell weui-check__label" for="r11">
+<DIV class="weui-cell__bd">医学隔离</DIV>
+<DIV class="weui-cell__ft"><INPUT name="glzt" class="weui-check" id="r11" type="radio" 
+value="医学隔离">           <SPAN class="weui-icon-checked"></SPAN> </DIV></LABEL>   
+            </DIV></DIV>
+<DIV class="weui-cells weui-cells_form">
+<DIV class="weui-cells__title">是否在校在岗？</DIV>
+<DIV class="weui-cells weui-cells_radio"><LABEL class="weui-cell weui-check__label" 
+for="r5">
+<DIV class="weui-cell__bd">否</DIV>
+<DIV class="weui-cell__ft"><INPUT name="zxzg" class="weui-check" id="r5" 
+required="" type="radio" value="否" tips="请选择是否在校在岗">           <SPAN class="weui-icon-checked"></SPAN> 
+</DIV></LABEL>         <LABEL class="weui-cell weui-check__label" for="r6">
+<DIV class="weui-cell__bd">是（蒲河校区）</DIV>
+<DIV class="weui-cell__ft"><INPUT name="zxzg" class="weui-check" id="r6" type="radio" 
+value="是（蒲河校区）">           <SPAN class="weui-icon-checked"></SPAN> 
+</DIV></LABEL>         <LABEL class="weui-cell weui-check__label" for="r7">
+<DIV class="weui-cell__bd">是（崇山校区）</DIV>
+<DIV class="weui-cell__ft"><INPUT name="zxzg" class="weui-check" id="r7" type="radio" 
+value="是（崇山校区）">           <SPAN class="weui-icon-checked"></SPAN> 
+</DIV></LABEL>		 <LABEL class="weui-cell weui-check__label" for="r18">
+<DIV class="weui-cell__bd">是（武圣校区）</DIV>
+<DIV class="weui-cell__ft"><INPUT name="zxzg" class="weui-check" id="r18" type="radio" 
+value="是（武圣校区）">           <SPAN class="weui-icon-checked"></SPAN> 
+</DIV></LABEL>       </DIV></DIV>
+<DIV class="weui-cells weui-cells_form">
+<DIV class="weui-cells__title"><FONT color="red">上次填报以来的行程轨迹（建议填写）</FONT></DIV>
+<DIV class="weui-cells weui-cells_radio"><LABEL class="weui-cell weui-check__label" 
+for="r91">
+<DIV class="weui-cell__bd">无</DIV>
+<DIV class="weui-cell__ft"><INPUT name="xcgj" class="weui-check" id="r91" 
+onclick="document.getElementById('xcgjxx').removeAttribute('required');document.getElementById('xcgjxxdiv').classList.remove('weui-cell_warn');document.getElementById('xcgjxx').value=''" 
+type="radio" value="无">           <SPAN class="weui-icon-checked"></SPAN> 
+</DIV></LABEL>         <LABEL class="weui-cell weui-check__label" for="r92">
+<DIV class="weui-cell__bd">有</DIV>
+<DIV class="weui-cell__ft"><INPUT name="xcgj" class="weui-check" id="r92" 
+onclick="document.getElementById('xcgjxx').setAttribute('required','');" type="radio" 
+value="有">           <SPAN class="weui-icon-checked"></SPAN> </DIV></LABEL>      
+ </DIV>
+<DIV class="weui-cell " id="xcgjxxdiv">
+<DIV class="weui-cell__bd"><TEXTAREA name="xcgjxx" class="weui-textarea" id="xcgjxx" onclick="document.getElementById('xcgjxxdiv').classList.remove('weui-cell_warn');" placeholder="如上次填报以来有行程轨迹，请详细填写，否则不填写" rows="4" autocomplete="off">如上次填报以来有行程轨迹，请详细填写，否则不填写</TEXTAREA>
+<DIV 
+class="weui-textarea-counter"><SPAN>0</SPAN>/500</DIV></DIV></DIV></DIV><INPUT name="gdipszd" id="gdipszd" type="hidden">
+	 <INPUT name="bdipszd" id="bdipszd" type="hidden">	 <INPUT name="txipszd" id="txipszd" type="hidden"> 
+    
+<DIV class="weui-btn-area"><A class="weui-btn weui-btn_primary" id="formSubmitBtn" 
+href="javascript:">提 交</A></DIV>
+<DIV class="weui-btn-area" style="display: none;"><A href="http://tjxx.lnu.edu.cn/isCanEnter.asp">查看是否能生成入校通行证</A> 
+</DIV></FORM></DIV><BR>
+<DIV class="weui-footer">
+<P class="weui-footer__links"><A class="weui-footer__link" href="http://tjxx.lnu.edu.cn/logout.asp">注销登录</A> 
+            </P>
+<P class="weui-footer__text">版权所有 © 辽宁大学</P></DIV>
+<SCRIPT src="每日填报_files/weui.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="每日填报_files/inputExt.js" type="text/javascript"></SCRIPT>
+ </BODY></HTML>
